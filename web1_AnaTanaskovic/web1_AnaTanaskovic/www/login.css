@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input[type='text'], input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  z-index: 1;
+}
+
+.show-error {
+  display: block;
+}
+
+.remember-me {
+  margin: 0 0 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.remember-me label {
+  font-size: 14px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.remember-me input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  appearance: none;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.remember-me input[type='checkbox']:checked {
+  background-color: #333;
+  color: #333;
+  border-color: #333;
+}
